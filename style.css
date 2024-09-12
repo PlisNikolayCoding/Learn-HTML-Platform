@@ -1,8 +1,27 @@
 body {
-  text-align: center;
+  background: #FFCACA;
+  margin: 0;
+  font-family: Helvetica;
 }
 
 nav {
   font-weight: bold;
   font-size: 1.5em;
+  background: linear-gradient(#FF0030 66.6666666666%, #000000);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resources:hover {
+  text-decoration: underline #FF6090 3px
+}
+
+@media (hover: none) {
+  .resources:active {
+    text-decoration: underline #FF6090 3px
+  }
 }
