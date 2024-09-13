@@ -7,7 +7,7 @@ body {
 nav {
   font-weight: bold;
   font-size: 1.5em;
-  background: #FF0030;
+  background: #FF5172;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -16,12 +16,21 @@ nav {
   gap: 10px;
 }
 
-a nav:hover {
+nav * {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav *:hover {
   text-decoration: underline var(--hover) 3px
 }
 
 @media (hover: none) {
-  a nav:active {
+  nav *:active {
     text-decoration: underline var(--hover) 3px
   }
 }
