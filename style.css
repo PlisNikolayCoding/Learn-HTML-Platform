@@ -16,12 +16,12 @@ nav {
   gap: 10px;
 }
 
-.resources:hover {
+a nav:hover {
   text-decoration: underline var(--hover) 3px
 }
 
 @media (hover: none) {
-  .resources:active {
+  a nav:active {
     text-decoration: underline var(--hover) 3px
   }
 }
