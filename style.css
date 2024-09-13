@@ -17,11 +17,15 @@ nav {
 }
 
 .resources:hover {
-  text-decoration: underline #FF6090 3px
+  text-decoration: underline var(--hover) 3px
 }
 
 @media (hover: none) {
   .resources:active {
-    text-decoration: underline #FF6090 3px
+    text-decoration: underline var(--hover) 3px
   }
+}
+
+:root {
+  --hover: #FF80B0;
 }
