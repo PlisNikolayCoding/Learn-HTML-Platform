@@ -1,5 +1,4 @@
 body {
-  background: #FFCACA;
   margin: 0;
   font-family: Helvetica;
 }
@@ -7,10 +6,9 @@ body {
 nav {
   font-weight: bold;
   font-size: 1.5em;
-  background: #FF5172;
+  background: #555;
   height: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
@@ -18,15 +16,23 @@ nav {
 
 nav * {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-h1 {
+main {
   text-align: center;
 }
 
+#first {
+  margin-left: 15px;
+}
+
 nav *:hover {
-  text-decoration: underline var(--hover) 3px
+  text-decoration: underline var(--hover) 3px;
+}
+
+nav *:active {
+  text-decoration: underline var(--hover) 3px;
 }
 
 @media (hover: none) {
@@ -36,5 +42,5 @@ nav *:hover {
 }
 
 :root {
-  --hover: #FF80B0;
+  --hover: #FFFFFF;
 }
